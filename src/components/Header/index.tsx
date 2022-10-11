@@ -8,7 +8,9 @@ export const Header = () => {
         <header className={styles.headerContainer}>
             <div className={styles.headerContent}>
                 <ActiveLink href='/' activeClassName={styles.active}>
-                    <Image src={logo} alt='newspaper logo' />
+                    <a>
+                        <Image src={logo} alt='newspaper logo' />
+                    </a>
                 </ActiveLink>
 
                 <nav>
