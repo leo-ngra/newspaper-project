@@ -16,3 +16,5 @@ Technologies used:
 yarn add sass
 
 yarn add react-icons
+
+yarn add @prismicio/client prismic-dom
