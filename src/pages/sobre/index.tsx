@@ -87,6 +87,7 @@ export const getStaticProps: GetStaticProps = async () => {
     return {
         props: {
             content
-        }
+        },
+        revalidate: 60 * 15
     }
 }
